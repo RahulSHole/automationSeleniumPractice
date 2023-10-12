@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.A"/>
+      <class name="testNG.B"/>
+      <class name="testNG.EnableProcess"/>
+      <class name="testNG.SameAnnotation"/>
+      <class name="testNG.CsameB"/>
+      <class name="testNG.Priority"/>
+      <class name="testNG.DependsOnMethodDemo"/>
+      <class name="testNG.HandlingWindow"/>
+      <class name="testNG.Priority2"/>
+      <class name="testNG.Priority4"/>
+      <class name="testNG.Priority3"/>
+      <class name="testNG.HandlingNewTab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
